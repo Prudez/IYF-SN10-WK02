@@ -1,0 +1,40 @@
+/* Base styles for boxes */
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box; /* fixes total width */
+    background-color: #d9d9d9;
+    margin-bottom: 20px;
+}
+
+/* Visualizing content, padding, border, margin */
+.content-box {
+  background-color: #ff6b6b; /* red */
+}
+
+.padding-box {
+  background-color: #6bc1ff; /* blue */
+  padding: 20px; /* bigger clickable area */
+}
+
+.border-box {
+  background-color: #6bff95; /* green */
+  border: 5px solid black;
+}
+
+.margin-box {
+  background-color: #ffa86b; /* orange */
+  margin: 30px; /* space outside the box */
+}
